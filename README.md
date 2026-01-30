@@ -82,7 +82,7 @@ jsonclip --copy
 cat response.json | jsonclip
 
 # Format from curl output
-curl -s https://api.github.com/repos/zethrus/jsonclip | jsonclip
+curl -s https://api.github.com/repos/ava-bootkode/jsonclip | jsonclip
 
 # Extract from a file
 cat data.json | jsonclip --path users[0].email
@@ -174,7 +174,7 @@ The `--path` option uses simple dot notation:
 
 ```bash
 # Clone and link
-git clone https://github.com/zethrus/jsonclip.git
+git clone https://github.com/ava-bootkode/jsonclip.git
 cd jsonclip
 npm link
 

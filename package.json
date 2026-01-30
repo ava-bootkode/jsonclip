@@ -4,7 +4,7 @@
   "description": "Zero-config JSON formatter and inspector for your clipboard data",
   "main": "index.js",
   "bin": {
-    "jsonclip": "./index.js"
+    "jsonclip": "index.js"
   },
   "scripts": {
     "test": "node test.js"
@@ -22,11 +22,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zethrus/jsonclip.git"
+    "url": "git+https://github.com/ava-bootkode/jsonclip.git"
   },
-  "homepage": "https://github.com/zethrus/jsonclip#readme",
+  "homepage": "https://github.com/ava-bootkode/jsonclip#readme",
   "bugs": {
-    "url": "https://github.com/zethrus/jsonclip/issues"
+    "url": "https://github.com/ava-bootkode/jsonclip/issues"
   },
   "engines": {
     "node": ">=14.0.0"
