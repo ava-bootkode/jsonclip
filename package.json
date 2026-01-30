@@ -1,0 +1,44 @@
+{
+  "name": "jsonclip",
+  "version": "1.0.0",
+  "description": "Zero-config JSON formatter and inspector for your clipboard data",
+  "main": "index.js",
+  "bin": {
+    "jsonclip": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "json",
+    "formatter",
+    "pretty-print",
+    "cli",
+    "clipboard",
+    "validation",
+    "inspector"
+  ],
+  "author": "BootKode Technologies <ava@bootkode.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zethrus/jsonclip.git"
+  },
+  "homepage": "https://github.com/zethrus/jsonclip#readme",
+  "bugs": {
+    "url": "https://github.com/zethrus/jsonclip/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^4.0.0"
+  },
+  "devDependencies": {},
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
